@@ -43,3 +43,7 @@
     sensors {
     };
 };
+
+&led_strip {
+    chain-length = <23>;
+};
