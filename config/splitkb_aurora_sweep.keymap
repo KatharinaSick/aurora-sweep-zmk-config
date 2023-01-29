@@ -5,8 +5,8 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 &mt {
     //  flavor = "tap-preferred";
@@ -23,10 +23,10 @@
 
         default_layer {
             bindings = <
- &rgb_ug RGB_TOG  &rgb_ug RGB_BRI          &kp E            &kp R   &kp T                   &kp Y   &kp U    &kp I      &kp O      &kp P
-           &kp A            &kp S          &kp D            &kp F   &kp G                   &kp H   &kp J    &kp K      &kp L      &kp A
-           &kp Z            &kp X          &kp C            &kp V   &kp B                   &kp N   &kp M  &kp DOT  &kp COLON  &kp SLASH
-  &kp LEFT_SHIFT        &kp SPACE  &kp BACKSPACE  &rgb_ug RGB_BRD
+          &kp Q      &kp W          &kp E            &kp R   &kp T                   &kp Y   &kp U    &kp I      &kp O      &kp P
+          &kp A      &kp S          &kp D            &kp F   &kp G                   &kp H   &kp J    &kp K      &kp L      &kp A
+          &kp Z      &kp X          &kp C            &kp V   &kp B                   &kp N   &kp M  &kp DOT  &kp COLON  &kp SLASH
+ &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE  &rgb_ug RGB_BRD
             >;
         };
 
