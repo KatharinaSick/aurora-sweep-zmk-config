@@ -23,9 +23,9 @@
 
         default_layer {
             bindings = <
- &rgb_ug RGB_TOG  &rgb_ug RGB_BRI          &kp E   &kp R   &kp T                   &kp Y   &kp U    &kp I      &kp O       &kp P
-           &kp A            &kp S          &kp D   &kp F   &kp G                   &kp H   &kp J    &kp K      &kp L  &kp RETURN
-           &kp Z            &kp X          &kp C   &kp V   &kp B                   &kp N   &kp M  &kp DOT  &kp COLON   &kp SLASH
+ &rgb_ug RGB_TOG  &rgb_ug RGB_BRI          &kp E   &kp R   &kp T                   &kp Y   &kp U    &kp I      &kp O      &kp P
+           &kp A            &kp S          &kp D   &kp F   &kp G                   &kp H   &kp J    &kp K      &kp L      &kp A
+           &kp Z            &kp X          &kp C   &kp V   &kp B                   &kp N   &kp M  &kp DOT  &kp COLON  &kp SLASH
   &kp LEFT_SHIFT        &kp SPACE  &kp BACKSPACE   &mo 1
             >;
         };
