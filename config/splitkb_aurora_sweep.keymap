@@ -20,21 +20,30 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Writing {
             bindings = <
-          &kp Q      &kp W          &kp E               &kp R   &kp T                   &kp Y   &kp U      &kp I    &kp O      &kp P
-          &kp A      &kp S          &kp D  &mt LEFT_COMMAND F   &kp G                   &kp H   &kp J      &kp K    &kp L  &kp ENTER
-          &kp Z      &kp X          &kp C               &kp V   &kp B                   &kp N   &kp M  &kp COMMA  &kp DOT  &kp MINUS
- &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE               &to 1
+          &kp Q                   &kp W          &kp E               &kp R   &kp T                   &kp Y   &kp U      &kp I    &kp O          &kp P
+          &kp A                   &kp S          &kp D  &mt LEFT_COMMAND F   &kp G                   &kp H   &kp J      &kp K    &kp L      &kp ENTER
+          &kp Z                   &kp X          &kp C               &kp V   &kp B                   &kp N   &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON
+ &kp LEFT_SHIFT  &mt LEFT_CONTROL SPACE  &kp BACKSPACE               &to 1
             >;
         };
 
-        Layer__1 {
+        special_characters {
             bindings = <
- &kp ESCAPE  &trans  &trans  &trans  &trans                   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET        &kp KP_N9  &trans
-    &kp TAB  &trans  &trans  &trans  &trans                         &kp LEFT_ARROW     &kp UP_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-     &trans  &trans  &trans  &trans  &trans                  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET        &kp KP_N3  &trans
-      &mo 0  &trans  &trans  &trans
+   &kp ESCAPE      &kp AT_SIGN         &kp DOLLAR            &kp PERCENT   &kp HASH                   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET        &kp SLASH  &kp DELETE
+      &kp TAB        &kp TILDE  &kp DOUBLE_QUOTES  &mt LGUI SINGLE_QUOTE  &kp GRAVE                         &kp LEFT_ARROW     &kp UP_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp ENTER
+ &kp LEFT_ALT  &kp EXCLAMATION       &kp QUESTION              &kp MINUS   &kp STAR                  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET    &kp BACKSLASH   &kp COLON
+        &to 0           &trans             &trans                    &kp
+            >;
+        };
+
+        Layer__2 {
+            bindings = <
+     &kp KP_PLUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9     &kp KP_MINUS                     &kp     &kp     &kp     &kp     &kp
+    &kp KP_EQUAL  &kp KP_NUMBER_6  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY                     &kp     &kp     &kp     &kp     &kp
+ &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DIVIDE                     &kp     &kp     &kp     &kp     &kp
+           &to 0     &kp KP_ENTER              &kp              &kp
             >;
         };
     };
