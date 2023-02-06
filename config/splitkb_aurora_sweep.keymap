@@ -42,7 +42,7 @@
         numbers_and_controls {
             bindings = <
      &kp KP_PLUS  &kp KP_NUMBER_7                   &kp KP_NUMBER_8                   &kp KP_NUMBER_9     &kp KP_MINUS                   &kp DOLLAR    &kp K_VOLUME_UP    &kp K_VOLUME_UP2  &kp C_BRIGHTNESS_INC  &rgb_ug RGB_EFF
-    &kp KP_EQUAL  &kp KP_NUMBER_6                   &kp KP_NUMBER_5                   &kp KP_NUMBER_6  &kp KP_MULTIPLY                   &kp DOLLAR     &kp K_PREVIOUS    &kp K_PLAY_PAUSE            &kp K_NEXT        &kp ENTER
+    &kp KP_EQUAL  &kp KP_NUMBER_4                   &kp KP_NUMBER_5                   &kp KP_NUMBER_6  &kp KP_MULTIPLY                   &kp DOLLAR     &kp K_PREVIOUS    &kp K_PLAY_PAUSE            &kp K_NEXT        &kp ENTER
  &kp KP_NUMBER_0  &kp KP_NUMBER_1                   &kp KP_NUMBER_2                   &kp KP_NUMBER_3    &kp KP_DIVIDE                  &kp PERCENT  &kp K_VOLUME_DOWN  &kp K_VOLUME_DOWN2  &kp C_BRIGHTNESS_DEC  &rgb_ug RGB_TOG
            &to 0     &kp KP_ENTER  &rgb_ug RGB_COLOR_HSB(197,96,47)  &rgb_ug RGB_COLOR_HSB(243,96,48)
             >;
